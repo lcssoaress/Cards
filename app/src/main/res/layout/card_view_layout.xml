@@ -32,7 +32,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Central Tecnologia"
                 android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -52,11 +53,15 @@
                 android:layout_marginTop="20dp">
 
                 <Button
+                    style="@style/Widget.AppCompat.ImageButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="italic"
                     android:text="Saiba Mais" />
 
                 <Button
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:textStyle="italic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ajuda" />
