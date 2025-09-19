@@ -10,6 +10,13 @@
     android:background="@drawable/fundo"
     tools:context=".CardMineActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|DEMONS MUST SUFFER|"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:layout_marginBottom="20dp"
     <com.google.android.material.card.MaterialCardView
         android:layout_width="360dp"
         android:layout_height="180dp"
@@ -52,7 +59,7 @@
                 android:layout_below="@+id/txt1"
                 android:layout_marginTop="50dp"
                 android:paddingLeft="20dp"
-                android:text="ESTRIPAR E LACERAR"
+                android:text="RIP AND TEAR"
                 android:textColor="#FF0500"
                 android:textSize="20dp" />
 
@@ -62,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txt3"
                 android:paddingLeft="20dp"
-                android:text="ATÉ O FIM"
+                android:text="UNTIL ITS DONE"
                 android:textColor="#FF0200"
                 android:textSize="20dp" />
 
@@ -174,7 +181,7 @@
                 android:layout_marginRight="140dp"
                 android:padding="20dp"
                 android:text="DOOM CLASSIC"
-                android:textColor="#FF0400" />
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/txt2"
@@ -183,7 +190,7 @@
                 android:layout_toEndOf="@+id/txt1"
                 android:padding="20dp"
                 android:text="Guns/Techs"
-                android:textColor="#FF0000" />
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/txt3"
@@ -193,7 +200,7 @@
                 android:layout_marginTop="50dp"
                 android:paddingLeft="20dp"
                 android:text="MAKE THEM PAY"
-                android:textColor="#FF0500"
+                android:textColor="#fff"
                 android:textSize="20dp" />
 
             <TextView
@@ -203,7 +210,7 @@
                 android:layout_below="@+id/txt3"
                 android:paddingLeft="20dp"
                 android:text="FOR YOUR DEAD FRIEND"
-                android:textColor="#FF0200"
+                android:textColor="#fff"
                 android:textSize="20dp" />
 
             <Button
@@ -213,7 +220,7 @@
                 android:layout_below="@+id/txt2"
                 android:layout_marginLeft="300dp"
                 android:layout_marginTop="25dp"
-                android:backgroundTint="#FF0400"
+                android:backgroundTint="#fff"
 
         </RelativeLayout>
 
