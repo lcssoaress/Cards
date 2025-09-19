@@ -10,7 +10,7 @@
     tools:context=".CardViewActivity">
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="400dp">
 
         <LinearLayout
